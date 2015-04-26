@@ -1,14 +1,14 @@
-#define LED 13
+#define LED 13			//definition LED pin
 
 void setup()
 {
-	pinMode(LED, OUTPUT);
+	pinMode(LED, OUTPUT);	//pin direction sets OUTPUT
 }
 
 void loop()
 {
-	digitalWrite(LED, HIGH);
-	delay(1000);
-	digitalWrite(LED, LOW);
-	delay(1000);
+	digitalWrite(LED, HIGH);		//Logic - 1
+	delay(1000);					//waiting 1 second
+	digitalWrite(LED, LOW);			//Logic - 0
+	delay(1000);					//waiting 1 second
 }
