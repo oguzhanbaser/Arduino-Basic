@@ -52,6 +52,7 @@ bool girisYap(String cardId)
   else return false;
 }
 
+//serial den data okunan kısım
 String dataOku()
 {
   char _id[11];
@@ -74,6 +75,8 @@ String dataOku()
   return cardId;
 }
 
+
+//Led animasyonun başladığı kısım
 void ledAnimasyon()
 {
   if (bayrakGiris && millis() - lastTime2 > 2000)
