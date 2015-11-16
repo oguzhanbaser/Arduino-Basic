@@ -56,22 +56,18 @@ bool girisYap(String cardId)
 String dataOku()
 {
   char _id[11];
-  int j = 0;
-  String s = Serial.readStringUntil('\n');
+  int i = 0, j = 0;
 
-  for (int i = 0; i < s.length(); i++)
+  while(j != 13 && i < 11)
   {
-
-    ledDondur();
-    if (isdigit(s[i]))
-    {
-      _id[j++] = s[i];
-    }
+    j = Serial.read();
+    if(isdigit(j))
+      _id[i++] = (char)j;
   }
 
   _id[10] = '\0';
   String cardId(_id);
-
+  Serial.println(_id);
   return cardId;
 }
 
