@@ -11,4 +11,4 @@ Nextion' a yüklenecek arayüzün hazırı "nexTest.HMI" isimli olarak lcd dosya
 
 <img src="lcdFiles/JPG/btn-1.jpg" height="240px" width="400px">
 
-<img src="lcdFiles/JPG/btn-2.jpg" height="240px" width="400px">
+<img src="lcdFiles/JPG/page2n.jpg" height="240px" width="400px">
