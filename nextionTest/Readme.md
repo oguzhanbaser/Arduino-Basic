@@ -10,3 +10,5 @@ PSD dosyasının içerisinde arayüzde kullanılan bütün reismler mevcuttur. G
 Nextion' a yüklenecek arayüzün hazırı "nexTest.HMI" isimli olarak lcd dosyalarının içerisinde mevcuttur.
 
 <img src="lcdFiles/JPG/btn-1.jpg" height="240px" width="400px">
+
+<img src="lcdFiles/JPG/btn-2.jpg" height="240px" width="400px">
